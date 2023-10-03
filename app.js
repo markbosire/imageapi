@@ -10,6 +10,9 @@ app.use(cors());
 
 // Middleware to parse JSON requests
 app.use(express.json());
+app.get("/", (req, res) => {
+  res.send("Express on Vercel");
+});
 
 // Define the endpoint to get the dominant color
 app.post('/getDominantColor', async (req, res) => {
