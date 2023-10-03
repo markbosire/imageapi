@@ -3,7 +3,7 @@ const Vibrant = require('node-vibrant');
 const cors = require('cors'); // Import the cors package
 
 const app = express();
-const port = process.env.4000;
+const port = 4000;
 
 // Middleware to enable CORS for all routes
 app.use(cors());
