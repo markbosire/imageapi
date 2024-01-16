@@ -46,6 +46,7 @@ result = response.json()
 dominant_color = result.get("dominantColor")
 print(f"Dominant Color: {dominant_color}")
 ```
+### Curl
 
 ```curl
 curl -X POST -H "Content-Type: application/json" -d '{"imageUrl": "https://example.com/image.jpg"}' https://imageapi-ten.vercel.app/getDominantColor
