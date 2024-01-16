@@ -50,4 +50,33 @@ print(f"Dominant Color: {dominant_color}")
 
 ```curl
 curl -X POST -H "Content-Type: application/json" -d '{"imageUrl": "https://example.com/image.jpg"}' https://imageapi-ten.vercel.app/getDominantColor
+```
+
+# API Installation 
+
+## Prerequisites
+
+Ensure you have Node.js installed on your machine. If not, you can download it from [Node.js website](https://nodejs.org/).
+
+## Installation Steps
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/markbosire/imageapi.git
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd repo
+   ```
+3. **Install Node.js modules:**
+   ```bash
+   npm install
+   ```
+4. **Run the App**
+   ```bash
+   node index.js
+   ```
+   
 
